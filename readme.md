@@ -11,4 +11,10 @@ git clone https://github.com/ericmurphyxyz/hugo-starter-theme themes/your-theme-
 rm -rf themes/your-theme-name/.git
 ```
 
+If you'd like some example content and an example config file to get started, you can copy the `exampleSite` directory into your root Hugo directory.
+
+```bash
+cp -r themes/your-theme-name/exampleSite/* ./
+```
+
 To learn more about building themes in Hugo, refer to Hugo's [templating documentation](https://gohugo.io/templates/).
